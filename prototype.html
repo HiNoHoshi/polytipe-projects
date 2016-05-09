@@ -39,11 +39,15 @@
 
 <body unresolved class="fullbleed">
   <paper-drawer-panel id="drawer_panel" disable-swipe force-narrow>
-    <paper-header-panel drawer mode="seamed">
-      <div id="drawer_content"></div>
+    <paper-header-panel drawer="" mode="seamed" at-top="">
+      <div id="drawer_content" style="border: none;"></div>
     </paper-header-panel>
-    <paper-header-panel main mode="seamed">
-      <iron-pages id="app_content" attr-for-selected="id"></iron-pages>
+    <paper-header-panel main="" mode="seamed">
+      <iron-pages id="app_content" attr-for-selected="id">
+        <section id="pinches">
+          <poly-card title="Es la vida" image="http://media.nbcdfw.com/images/1200*675/oak-tree.jpg" id="poly8" style="color: rgb(250, 250, 250);"></poly-card>
+        </section>
+      </iron-pages>
     </paper-header-panel>
   </paper-drawer-panel>
 
